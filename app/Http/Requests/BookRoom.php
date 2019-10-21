@@ -25,8 +25,8 @@ class BookRoom extends FormRequest
     {
         $hous = 1;
         return [
-            'start_time'    => 'required|date|after_or_equal:time_now',
-            'finish_time'      => 'required|date|after_or_equal:start_time',
+            'start_time' => 'required|date|after_or_equal:time_now',
+            'finish_time' => 'required|date|after_or_equal:start_time',
 //            'finish_time'      => 'after_or_equal:1',
         ];
     }
